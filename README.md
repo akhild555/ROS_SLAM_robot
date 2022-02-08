@@ -57,7 +57,7 @@ In VM (ROS Master) first:
 
 In RPi:
 
-  3) Run `rosrun rosserial_python serial_node.py`. This will create a node for the Arduino to communicate with other nodes on ROS. If rosserial is not installed, run  `sudo apt-get install ros-<ros_distro>-rosserial-arduino`.
+  3) Run `rosrun rosserial_python serial_node.py` or `rosrun rosserial_python serial_node.py _port:=/dev/ttyACM0 _baud:=57600`. This will create a node for the Arduino to communicate with other nodes on ROS. If rosserial is not installed, run  `sudo apt-get install ros-<ros_distro>-rosserial-arduino`.
 
 You can now go back to the terminal in VM with teleop_twist_keyboard running and control the robot with the `i` key for forward translation, `u` for counterclockwise rotation, `o` for clockwise rotation, and `.` for backward translation.
   
