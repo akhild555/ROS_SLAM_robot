@@ -10,11 +10,11 @@ The robot can now be manually controlled with ROS from a keyboard to drive aroun
 
 ### Robot Hardware
 
-The final robot hardware configurationcan be seen in the pictures below. The robot is driven by 4 stepper motors connected to a base. The lidar is mounted to a lidar mount plate attached to the base. A large battery bank is mounted under the robot base. This battery supplies power to RPi, Arduino, and the RPLidar. The Lipo battery under the lidar supplies power to the stepper motors.
+The final robot hardware configuration can be seen in the pictures below. The robot is driven by 4 stepper motors connected to a base. The lidar is mounted to a lidar mount plate attached to the base. A large battery bank is mounted under the robot base. This battery supplies power to RPi, Arduino, and the RPLidar. The Lipo battery under the lidar supplies power to the stepper motors.
 
-Side          |  Top | Iso
-:-------------------------:|:-------------------------:|:-------------------------:
-![](https://i.imgur.com/B815roU.jpg) | ![](https://i.imgur.com/MukmtIb.jpg) | ![](https://i.imgur.com/Axxuxbe.jpg)
+SLAM Robot          | 
+:-------------------------:|
+![Imgur](https://i.imgur.com/8HW4CKn.jpg) |
 
 ## Instructions
 
