@@ -1,10 +1,10 @@
 # ROS Lidar Robot
 
-This project aims to implement SLAM using the RPLIDAR on a real robot with ROS. The ultimate goal is for the robot to autonomously navigate in a room. This project is being worked on in collaboration with Byron Ho (byronho).
+This project aims to initially implement SLAM using the RPLIDAR on a real robot with ROS. The goal is for the robot to autonomously navigate in a room. This project is being worked on in collaboration with Byron Ho (byronho). In the future the robot will serve as a platform to try out various kinds of sensors and algorithms.
 
 ### Project Status
 
-The robot can now be manually controlled with ROS from a keyboard to drive around a room and gather lidar data. The next step is autonomouos navigation via SLAM.
+The robot can now be manually controlled with ROS from a keyboard to drive around a room and gather lidar data. The next steps include sensor integration, building a motion model and control, path planning, sensor fusion, SLAM, and eventually autonomouos navigation via SLAM.
 
 ![](https://drive.google.com/uc?export=view&id=1dbUq8MTbeKoB9IzGMe3JaV-vG-qusDUl) 
 
